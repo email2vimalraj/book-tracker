@@ -1,30 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# Book Tracker
 
-## Getting Started
+This is a simple application built as a side project to track the books that I read and read along with friends with some challenges (Like goodreads).
 
-First, run the development server:
+## Why am I building this?
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Even if there is a goodreads, why am I building this? Because this way I learn the technology (here I chose to learn NextJS, may be even more along the way).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [x] Signup and Signin (Google social auth - integration with Auth0)
+- [ ] Home page with search book feature
+- [ ] Search book by title, author, publisher and ISBN
+- [ ] User Dashboard
+- [ ] Allow user to create a reading group with a goal of reading (weekly / monthly / yearly)
+- [ ] Allow user to invite friends to a created group
+- [ ] Allow user to add a book to read -> optional goal date to complete
+- [ ] Remind users about the reading goal date
+- [ ] Allow user to mark book as In progress / Completed
+- [ ] Rewarding system for completions
+- [ ] Book recommendation engine
